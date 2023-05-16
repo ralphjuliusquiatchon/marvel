@@ -18,7 +18,9 @@ header{
 
 header *{
     color: white;
-    align-items: center;
+    line-height: 50px;
+    text-align: center;
+    
 }
     
 
@@ -42,6 +44,7 @@ header *{
     
 }
 
+
 .top-header .with-border{
     border-left: 1px solid #393939;
     border-right: 1px solid #393939;
@@ -52,14 +55,21 @@ header *{
     height: 24px;
 }
 
-.subsbribe{
-    width: 100%;
-    text-align: center;
+.subscribe{
+    position: absolute;
+    left: 50%;
+    bottom: 10px;
 }
 
 .search{
     height: 50px;
     display: inline-block;
+    border-left: 1px solid #393939;
+    padding: 0 10px;
+}
+
+#right-nav{
+    position: relative;
 }
 
 
