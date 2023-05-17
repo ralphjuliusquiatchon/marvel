@@ -20,6 +20,7 @@ header *{
     color: white;
     line-height: 50px;
     text-align: center;
+    text-decoration: none;
     
 }
     
@@ -53,23 +54,24 @@ header *{
 #icon-shield{
     width: 24px;
     height: 24px;
+    padding-right: 5px;
 }
 
-.subscribe{
-    position: absolute;
-    left: 50%;
-    bottom: 10px;
-}
 
-.search{
+#search{
     height: 50px;
     display: inline-block;
     border-left: 1px solid #393939;
     padding: 0 10px;
 }
 
-#right-nav{
-    position: relative;
+#special{
+    display: inline-block;
 }
 
-
+p{
+    display: inline-block;
+}
+ .top-header ul{
+    display: flex;
+ }
