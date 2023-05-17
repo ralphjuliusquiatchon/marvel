@@ -9,7 +9,7 @@
 
 header{
     width: 100%;
-    height: 130px;
+    height: 90px;
     background-color: #202020;
 }
 
@@ -100,12 +100,12 @@ header > *{
     height: px;
 }
 
-.mid-header{
+.bottom-header{
     display: flex;
     justify-content: center;
 }
 
-.mid-header ul{
+.bottom-header ul{
     display: flex;
     justify-content: space-between;
 }
@@ -119,16 +119,59 @@ ul li{
     margin: 0 5px;
 }
 
-.bottom-header{
-    display: flex;
+/* MAIN */
+
+main{
+    color: white;
 }
 
-.bottom-header > *{
-    width: 50%;
+.insider{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #000000;
+}
+
+.insider > *{
+    width: 200px;
     height: 40px;
     background-color: blue;
-    border: 1px solid black;
+    border: 1px solid black; 
+}
 
-    
+.container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.bg-img{
+    width: 100%;
+    height: 500px;
+    background-image: url(images/bg-marvel.jpeg);
+    background-size: cover; */
+}
+
+.opacity{
+    background-color:rgba(1, 1, 1, 0.358);
+    width: 100%;
+    height: 500px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.main-text{
+    position: absolute;
+    transform: translate(-50% -50%);
+    text-align: center;
+}
+
+h2,
+h5{
+    font-size: 1.5em;
+
 }
 
