@@ -5,6 +5,12 @@
     box-sizing: border-box;
 }
 
+/* GENERAL */
+
+*{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
 /* HEADER */
 
 header{
@@ -139,39 +145,135 @@ main{
     border: 1px solid black; 
 }
 
-.container{
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 
 .bg-img{
     width: 100%;
     height: 500px;
     background-image: url(images/bg-marvel.jpeg);
-    background-size: cover; */
+    background-size: cover;
 }
 
 .opacity{
     background-color:rgba(1, 1, 1, 0.358);
     width: 100%;
     height: 500px;
-    position: absolute;
-    top: 0;
-    left: 0;
+    position: relative;
 }
-
 .main-text{
     position: absolute;
-    transform: translate(-50% -50%);
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
     text-align: center;
+
 }
 
-h2,
-h5{
-    font-size: 1.5em;
+.main-text > h1{
+    font-size: 2.5em;
+    margin-bottom: 5px;
+}
 
+.main-text > h2{
+    font-size: 1em;
+}
+
+/* TOP-FOOTER */
+
+footer{
+    width: 100%;
+    height: 700px;
+    color: white;
+    background-color: #000000;
+}
+
+.top-footer{
+    display: flex;
+    width: 1200px;
+    margin: auto;
+}
+
+.left-container,
+.right-container{
+    width: 50%;
+    height: 300px;
+    background-color: blue;
+}
+
+.left-container{
+    background-image: url(images/footer-img.jpeg);
+    background-size: cover;
+    position: relative;
+}
+
+.left-container .overlay{
+    width: 100%;
+    height: 300px;
+    background-color: #2020207d;
+    position: relative;
+}
+
+.left-container img{
+    width: 100px;
+    height: 30px;
+}
+
+.left-container .overlay > *{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.right-container{
+    background-color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.right-container *{
+    margin-top: 10px;
+}
+
+small{
+    position: absolute;
+    bottom: 5px;
+}
+
+/* BOTTOM-FOOTER */
+
+.bottom-footer  *{
+    border: 1px solid white;
+}
+
+
+.bottom-footer{
+    width: 100%;
+    height: 300px;
+    background-color: #151515;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-container-footer,
+.right-container-footer{
+    width: 40%;
+    height: 150px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.small-container{
+    width: 20%;
+    height: 150px;
+
+}
+
+.big-container{
+    width: 40%;
+    height: 150px;
 }
 
