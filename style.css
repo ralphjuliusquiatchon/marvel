@@ -29,6 +29,12 @@ header * {
     color: white;
 }
 
+* a{
+    color: white;
+    text-decoration: none;
+}
+
+
 /* TOP-HEADER */
 
 .top-header{
@@ -46,8 +52,7 @@ header * {
 
 .left-nav > *{
     margin: 0 5px;
-    text-decoration: none;
-}
+}   
 
 .center-nav img{
     width: 120px;
@@ -294,6 +299,10 @@ small{
 
 #follow{
   text-align: center;
+}
+
+.icons *{
+    color: #767676;
 }
 
 .privacy{
